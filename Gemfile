@@ -40,6 +40,11 @@ group :development, :test do
   gem "pry-rails" # 追加（pryのデバッグを行うためのgem）
   gem "rubocop-rails" # 追加（静的解析ツール）
   gem "rubocop-rspec" # 追加（静的解析ツール）
+
+  # 以下はテスト用のGem
+  gem "factory_bot_rails"
+  gem "faker"
+  gem "rspec-rails"
 end
 
 group :development do
