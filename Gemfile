@@ -56,6 +56,7 @@ group :development do
   gem "spring-watcher-listen", "~> 2.0.0"
 
   gem "annotate" # 追加（modelやrspecのファイルに、対象tableのschemaを書き出すgem）
+  gem "rails-erd" # 追加
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
