@@ -76,3 +76,6 @@ RSpec/ReturnFromStub:
 # context ごとに let! を使い分けたい場合があるため無効に（追加）
 RSpec/LetSetup:
   Enabled: false
+
+Metrics/BlockLength:
+  Max: 150
